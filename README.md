@@ -10,6 +10,7 @@ devtools::install_github("anhuikylin/imageCarousel")
 Place some images (.png) in the E:/count/www/img folder.
 ```
 library(shiny)
+library(base64enc)
 library(imageCarousel)
 # In your Shiny app:
 ui <- fluidPage(
